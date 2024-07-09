@@ -1,0 +1,70 @@
+/* background for the body */
+body {
+    background: linear-gradient(to bottom right, green, rgb(105, 105, 218));
+    margin: 0;
+}
+
+/* header */
+.body h1 {
+    background-color: rgb(80, 43, 80); 
+    color: white;
+    border-radius: 10px;
+    text-align: center; 
+    padding: 20px; 
+}
+
+/* bordered container */
+#boder {
+    border: 2px solid rgb(238, 101, 10);
+    border-radius: 10px;
+    padding: 20px; 
+    margin: 20px; 
+    background-color:white;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#shopitems {
+    padding: 10px;
+    border: 1px solid rgb(211, 196, 196);
+    border-radius: 5px;
+    background-color: rgb(231, 230, 230);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+/* Buttons section */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: rgb(12, 143, 12);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+}
+
+/* Selected item style */
+.selected {
+    background-color: rgb(233, 233, 114);
+}
+
+/* Purchased item style */
+.purchased {
+    text-decoration: line-through;
+    color: rgb(119, 40, 40);
+}

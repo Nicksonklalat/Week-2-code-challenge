@@ -37,7 +37,7 @@ document.getElementById('addItem').addEventListener('click', function () {
       cartItems.removeChild(cartItems.firstChild);
     }
   
-    // Print this error if no more list items to be cleared
+    // Print this error if there's no item to be cleared
     if (!hasChildren) {
       alert('Cart is empty');
     }
